@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Salthill</string>
+    <string name="wallpaper_description">The Blackrock coast, animated with local weather. Weather data by Open-Meteo.</string>
+    <string name="tagline">A little piece of the Atlantic.</string>
+    <string name="weather_location">Weather location</string>
+    <string name="my_location">My location</string>
+    <string name="salthill">Salthill</string>
+    <string name="location_privacy">Location is checked only when you ask. No background tracking.</string>
+    <string name="update_location">Update my location</string>
+    <string name="movement">Make it move</string>
+    <string name="economy">Economy</string>
+    <string name="balanced">Balanced</string>
+    <string name="smooth">Smooth</string>
+    <string name="wallpaper_action">Set live wallpaper</string>
+    <string name="preview_action">Preview scene</string>
+    <string name="screensaver_action">Use as screensaver</string>
+    <string name="advanced">Advanced · tide forecast</string>
+    <string name="tide_url">Tide forecast URL</string>
+    <string name="tide_help">Optional override. Leave empty to use Open-Meteo’s automatic coastal sea-level forecast.</string>
+    <string name="save_tide">Save tide settings</string>
+    <string name="weather_attribution">Weather and sea level by Open-Meteo</string>
+    <string name="local_time">Local time · updates automatically</string>
+    <string name="clock_format" translatable="false">HH:mm</string>
+    <string name="clock_format_12" translatable="false">h:mm a</string>
+    <style name="AppTheme" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">#8CDED0</item>
+        <item name="colorOnPrimary">#00382F</item>
+        <item name="colorPrimaryContainer">#245349</item>
+        <item name="colorOnPrimaryContainer">#B6F4E7</item>
+        <item name="colorSecondary">#BEC2FF</item>
+        <item name="colorOnSurface">#E8EFF5</item>
+        <item name="colorOnSurfaceVariant">#B4C5D1</item>
+        <item name="colorSurface">#102333</item>
+        <item name="colorSurfaceContainer">#193142</item>
+        <item name="colorOutline">#6C8794</item>
+        <item name="android:colorBackground">#0A1B29</item>
+        <item name="android:windowBackground">#0A1B29</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="SettingsCard" parent="Widget.Material3.CardView.Filled">
+        <item name="cardCornerRadius">24dp</item>
+        <item name="cardBackgroundColor">#193142</item>
+    </style>
+</resources>
